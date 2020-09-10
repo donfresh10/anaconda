@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+body {
+background: lightblue;
+  font-family: verdana;
+  color: green;
+  text-align: justify;
+}
+</style>
+<div class="float-left-area">
+<div class="inner-left"ggg
+
+Left content. Add your main body of content to this side.
+
+</div>
+</div>
+
+
+</div>
+
+
+<style>
+.float-left-area  {
+		  width: 70%;
+		  float: left;
+		  }
+
+.float-right-area {
+		  width: 30%;
+		  float: left;
+		  }
+
+.inner-left	  {
+		  padding: 5px 5px 5px 5px;
+		  margin-right: 10px;
+		  border: #999999 5px solid;
+		  min-height: 60px;
+		  }
+
+.inner-right	  {
+		  font-size: 11px;
+		  padding: 5px 5px 5px 5px;
+		  border: #999999 1px solid;
+		  min-height: 60px;
+		  }
+
+.clear-floated	  { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+</style>
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">Cat Photos</a>.</p>
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <div>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="B9E15tDL"></script>
+<div class="fb-comments" data-href="https://web.anacondaspace.blogspot.com" data-numposts="5" data-width=""></div>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+    <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</main>
+</html>
